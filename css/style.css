@@ -1,0 +1,98 @@
+:root {
+  --bg: #0d1117;
+  --card: #161b22;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --accent: #58a6ff;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* HOME */
+.home .hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.home h1 {
+  font-size: 3rem;
+}
+
+.subtitle {
+  color: var(--muted);
+  max-width: 500px;
+}
+
+.cta {
+  margin-top: 2rem;
+  display: inline-block;
+  color: black;
+  background: var(--accent);
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  width: fit-content;
+}
+
+/* PROJECTS */
+header {
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid #30363d;
+  border-radius: 14px;
+  padding: 1.2rem;
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lang {
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.desc {
+  color: var(--muted);
+  margin: 1rem 0;
+}
+
+.stats {
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions a {
+  margin-right: 10px;
+  color: var(--accent);
+  text-decoration: none;
+}
