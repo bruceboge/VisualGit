@@ -1,0 +1,15 @@
+need a developer blog plartrform that i can be able to write and publish my bloggs from
+so it is my very own personal so no need to complicte things here just a simple welcoming dashboard display to begin with
+"new blog" section where when clicked, it opens up a "canvas" to wtite my blog
+CANVAS: able to upload image--reference url of the blog and also other images as an illustration in the blog articles
+        title
+        sutitle
+the second part of the plartfornm is a place where i can have like a portfolio like description of my projects
+-here i want it to be aplace to have image, video, tutorial, and descriptions of my projects i guess this will work the same as the blog only differ a bit
+
+SO THIS IS THE MAIN DEVELOPMENT
+ABOUT THE ARCHITECTURE, (THE REAL SYSYTEM)
+        -Hosting of this plartform
+        -DATABASE to store the content
+        -other resources consumed
+LIKE PUBLISHING THE BLOGS ON THE NET TO LINK THIS UP TO THE MY PORTFOLIO WEBSITE
